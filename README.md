@@ -10,4 +10,4 @@ There are 6 Courses in this Professional Certificate:
 5. [Deep Learning and Reinforcement Learning](https://www.coursera.org/learn/deep-learning-reinforcement-learning?specialization=ibm-machine-learning)
 6. [Specialized Models: Time Series and Survival Analysis](https://www.coursera.org/learn/time-series-survival-analysis?specialization=ibm-machine-learning)
 
-Link course: https://www.coursera.org/professional-certificates/ibm-machine-learning
+Link Professional Certificate: https://www.coursera.org/professional-certificates/ibm-machine-learning
