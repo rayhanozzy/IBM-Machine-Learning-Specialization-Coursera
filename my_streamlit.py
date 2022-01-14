@@ -10,7 +10,7 @@ option = st.sidebar.selectbox(
 )
 
 if option == 'Home' or option == '':
-    st.write("""# Home Page""")
+    st.write("""# Homepage""")
 elif option == 'Dataframe':
     st.write("""## Dataframe""")
 
