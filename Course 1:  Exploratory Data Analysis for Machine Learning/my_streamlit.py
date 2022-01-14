@@ -12,8 +12,7 @@ if option == 'Home' or option == '':
 elif option == 'Dataframe':
     st.write("""## Dataframe""")
 
-    data = pd.read_csv(
-        "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-03-12/board_games.csv")
+    data = pd.read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-03-12/board_games.csv")
     data.head(5)
 elif option == 'Chart':
     st.write("""## Draw Charts""")
