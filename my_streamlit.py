@@ -5,12 +5,12 @@ import numpy as np
 #import seaborn as sns
 
 option = st.sidebar.selectbox(
-    'Silakan pilih:',
+    'Menu:',
     ('Home','Dataframe','Chart')
 )
 
 if option == 'Home' or option == '':
-    st.write("""# Halaman Utama""")
+    st.write("""# Home Page""")
 elif option == 'Dataframe':
     st.write("""## Dataframe""")
 
