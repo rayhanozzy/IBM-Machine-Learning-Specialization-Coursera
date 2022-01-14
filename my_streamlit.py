@@ -16,6 +16,8 @@ elif option == 'Dataframe':
 
     df = pd.read_csv("Mall_Customers.csv")
     st.table(df.head(10))
+    
+    st.markdown("Describing data")
     st.table(df.describe())
     
 elif option == 'Chart':
