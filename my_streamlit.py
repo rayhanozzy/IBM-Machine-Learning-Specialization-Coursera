@@ -16,7 +16,7 @@ elif option == 'Dataframe':
 
     df = pd.read_csv("Mall_Customers.csv")
     st.table(df.head(10))
-    st.table(df.dtypes)
+    st.table(df.describe())
     
 elif option == 'Chart':
     st.write("""## Draw Charts""")
