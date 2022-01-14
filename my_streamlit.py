@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 option = st.sidebar.selectbox(
     'Silakan pilih:',
@@ -12,7 +14,7 @@ if option == 'Home' or option == '':
 elif option == 'Dataframe':
     st.write("""## Dataframe""")
 
-    df = pd.read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-03-12/board_games.csv")
+    df = pd.read_csv("https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python?select=Mall_Customers.csv")
     st.table(df.head(10))
 elif option == 'Chart':
     st.write("""## Draw Charts""")
