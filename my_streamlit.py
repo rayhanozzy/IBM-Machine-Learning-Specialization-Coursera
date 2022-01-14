@@ -11,6 +11,8 @@ option = st.sidebar.selectbox(
 
 if option == 'Home' or option == '':
     st.write("""# Homepage""")
+    st.markdown("Bienvenue sur la page d'accueil. C'est un de mes projets à l'IBM Machine Learning")
+
 elif option == 'Dataframe':
     st.write("""## Dataframe""")
 
