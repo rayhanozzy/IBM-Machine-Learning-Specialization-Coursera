@@ -13,7 +13,8 @@ elif option == 'Dataframe':
     st.write("""## Dataframe""")
 
     df = pd.read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-03-12/board_games.csv")
-    df.head(10)
+    st.table(df) 
+#    df.head(10)
 elif option == 'Chart':
     st.write("""## Draw Charts""")
 
