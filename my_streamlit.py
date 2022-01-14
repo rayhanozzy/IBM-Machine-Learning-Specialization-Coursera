@@ -14,7 +14,7 @@ if option == 'Home' or option == '':
 elif option == 'Dataframe':
     st.write("""## Dataframe""")
 
-    df = pd.read_csv("https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python?select=Mall_Customers.csv")
+    df = pd.read_csv("Mall_Customers.csv")
     st.table(df.head(10))
 elif option == 'Chart':
     st.write("""## Draw Charts""")
