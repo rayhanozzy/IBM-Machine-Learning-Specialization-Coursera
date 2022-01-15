@@ -26,8 +26,8 @@ elif option == 'Chart':
     st.write("""## Draw Charts""")
 
     chart_data = pd.DataFrame(
-        np.random.randn(30,2),
-        columns = ['a','b']
+        np.random.randn(30,4),
+        columns = ['a','b','c']
     )
 
     st.line_chart(chart_data)
