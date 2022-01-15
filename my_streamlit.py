@@ -25,6 +25,9 @@ elif option == 'Dataframe':
     st.markdown("Describing data")
     st.table(df.describe())
     
+    st.markdown("Correlation matrix")
+    st.table(df.corr())
+    
 elif option == 'Chart':
     st.write("""## Draw Charts""")
 
