@@ -23,6 +23,7 @@ elif option == 'Dataframe':
     st.table(df.head(10))
     
     st.markdown("Describing data")
+    df.drop('CustomerID', axis=1, inplace=True)
     st.table(df.describe())
     
     st.markdown("Correlation matrix")
